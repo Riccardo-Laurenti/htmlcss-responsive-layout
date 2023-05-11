@@ -1,1 +1,22 @@
 /*---------- RESPONSIVE CSS -----------*/
+
+
+
+@media screen and (max-width: 768px) {
+    
+    .nav-right {
+        display: none;
+    }
+
+    .nav-left {
+        flex-basis:100% ;
+    }
+
+    .mobile-menu {
+        display: block;
+        flex-basis: 5%;
+    }
+
+
+
+}

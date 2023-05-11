@@ -4,18 +4,45 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Style Css-->
+    <!-- Link Css-->
     <link rel="stylesheet" href="css/style.css">
-    <!-- Responsive Css-->
     <link rel="stylesheet" href="css/responsive.css">
+    <!-- Link Icon-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <!-- Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
     <!-- Title Site-->
     <title>Htmlcss-Responsive-Layout</title>
 </head>
 
 <body>
 
-    <header>
+    <header id="header-main">
 
+         <nav class="nav-left">
+            <ul>
+                <li>
+                    <a href="#"> <img src="img/logo.png" alt="Logo Header"> </a>
+                </li>
+            </ul>
+         </nav>
+
+         <nav class="nav-right">
+            <ul>
+                <li><a href="#">Planning</a></li>
+                <li><a href="#">Testimonials</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Get Started</a></li>
+            </ul>
+         </nav>
+         <a href="#" class="mobile-menu">
+            <i class="fa-solid fa-bars"></i>
+        </a>
     </header>
 
 </body>
