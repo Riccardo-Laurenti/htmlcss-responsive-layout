@@ -9,14 +9,33 @@
     }
 
     .nav-left {
-        flex-basis:100% ;
+        flex-basis:90% ;
     }
 
     .mobile-menu {
         display: block;
-        flex-basis: 5%;
+        flex-basis: 10%;
     }
 
+
+
+}
+
+
+@media screen and (max-width: 480px) {
+    
+    .nav-right {
+        display: none;
+    }
+
+    .nav-left {
+        flex-basis:90% ;
+    }
+
+    .mobile-menu {
+        display: block;
+        flex-basis: 10%;
+    }
 
 
 }
