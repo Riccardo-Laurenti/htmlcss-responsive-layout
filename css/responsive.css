@@ -14,7 +14,27 @@
 
     .mobile-menu {
         display: block;
-        flex-basis: 10%;
+        flex-basis: 6%;
+    }
+
+    #header-main {
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+    .col-large {
+        flex-basis: 62%;
+    }
+
+    
+    .col-large-2 {
+        flex-basis: 29%;
+    }
+
+
+    .col {
+        flex-basis: 29.5%;
     }
 
 
@@ -37,5 +57,8 @@
         flex-basis: 10%;
     }
 
-
+    .row {
+        flex-direction:column;
+    }
+    
 }
